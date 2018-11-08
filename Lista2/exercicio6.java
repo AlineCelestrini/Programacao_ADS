@@ -17,11 +17,11 @@ public class exercicio6 {
 		double desc1, desc2;
 		if (pgto1 == 1) {
 			desc1 = preco1 - (preco1 * (5.0 / 100.0));
-			System.out.println("Preço final com desconto de 5%: R$ " + desc1);
+			System.out.println("Preço final com desconto de 5%: R$ "+ desc1);
 		}
 		if (pgto1 == 2) {
 			desc2 = preco1 + (preco1 * (2.0 / 100.0));
-			System.out.println("Preço final com acréscimo de 2%: R$ " + desc2);
+			System.out.println("Preço final com acréscimo de 2%: R$ "+ desc2);
 		}
 
 	}
